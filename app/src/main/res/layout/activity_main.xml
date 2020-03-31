@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="585dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/dialog_shaper"
+        lb:horizontalMargin="12dip"
+        lb:verticalMargin="24dip"
+        lb:numberOfRows="1"
+        lb:rowHeight="215dip"
+        android:layout_margin="5dp"
+        android:paddingBottom="12dip"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip"
+        android:paddingTop="12dip"/>
+
+</RelativeLayout>
